@@ -15,20 +15,20 @@
 
 </head>
 
-<body>
+<body class = "aboutPage">
     <header class="mainPage">
         <div class="main">
             <ul>
-                <li class="active"><a href="home.html">Home</a></li>
-                <li><a href="#atpS">Background</a></li>
-                <li><a href="#scopeS">Scope</a></li>
+                <li class="active"><a href="index.html">Home</a></li>
+                <!-- <li><a href="#atpS">Background</a></li> -->
+                <li><a href="#atpSection">Background/Scope</a></li>
                 <li><a href="#tlSection">Timeline</a></li>
                 <li><a href="#solutionSection">Solution</a></li>
                 <li>
                     <div class="dropdown">
                         <button class="dropbtn">More...</button>
                         <div class="dropdown-content">
-                            <a href="aboutTheTeam.html">About the Team</a>
+                            <a href="about.html">About the Team</a>
                             <a href="highlights.html">Highlights</a>
                             <a href="implementation.html">Implementation</a>
                             <a href="lessonsLearned.html">Lessons Learned</a>
@@ -43,46 +43,22 @@
         </div>
     </header>
     <!-- about the project -->
-    <section class="atpSection">
-        <div id = "atpS">
-        <div class="atpLeft">
-            <h2>Background</h2>
-            <div class = "scopeRightP">
-                <p>Client:
-                    Frank Preuss, IT Manager for Social Sciences & Interdisciplinary Studies IT Department
-                    Client’s business:
-                    Frank runs and manages all Hardware and software for the buildings, Teachers,and Faculty in the S.S. & I.S. Colleges.
-                    Client’s “problem” to be solved:
-                    The issue to be solved is updating the software and hardware to manage all hardware and systems used in the area of the S.S. & I.S. Buildings.
-                    There is an existing application that is being used by the IT Department. They are using some form of Windows Management Instrumentation.
-                    </p>
+    <section id ="atpSection">
+        <div class="bgScope">
+
+            <h2>Background/Scope</h2>
+            <div class="bgScopeP">
+                <p>Frank Preuss, our client, the IT Manager for Social Siences & Interdisciplinary Studies IT
+                    Department runs and manages the hardware
+                    and software for the buildings, professors, and faculty in the S.S & I.S Colleges. Although
+                    there is an existing application being used
+                    by the IT Department, it's a form of Windows Managment Instrument and they would
+                    like a more updated software to manage the devices used in the area of the S.S & I.S buildings
+                </p>
             </div>
-        </div>
-        </div>
-        <div id = "scopeS">
-        <div class="scopeRight">
-            <h2>Scope</h2>
-                <div class = "scopeRightP">
-                    <p>Client:
-                        Frank Preuss, IT Manager for Social Sciences & Interdisciplinary Studies IT Department
-                        Client’s business:
-                        Frank runs and manages all Hardware and software for the buildings, Teachers,and Faculty in the S.S. & I.S. Colleges.
-                        Client’s “problem” to be solved:
-                        The issue to be solved is updating the software of the current website to manage all hardware and systems used in the area of the S.S. & I.S. Buildings.
-                        There is an existing application that is being used by the IT Department. They are using some form of Windows Management Instrumentation.
-                        Project goals include: 
+    </section>
 
-                        Continue building on top of frontend and backend of our website to match our clients requests and needs. 
-
-
-
-
-
-                        </p>
-                </div>
-        </div>
-        </div>
-      </section>
+    </section>
     <!-- TimeLine -->
     <section id="tlSection">
         <h2>Timeline</h2>
@@ -193,23 +169,30 @@
         </ul>
     </section>
     <!-- Solution -->
-    <section id = "solutionSection">
-        <h2> Solution</h2>
-        <div class = "solutionP">
-            <p>Solution Alternatives:
-                Option 1: 
-                Build from scratch Website front end and Database backend.
-                This seemed more of a tougher route and would take too long to build an infrastructure from scratch.
-                Option 2: 
-                Use an open source template for Website front end while building Database backend from scratch.
-                One of our team members had a previous project using Tabler UI so the foundation was already in place to build a Website front end. 
-                Finalizing a decision was easy, eventually going with option 2. It was faster and more efficient on getting a product out for the client as quickly as possible. Other options seemed more cumbersome than they were worth and were scrapped.
-                Possible Features that were Abandoned:
-                Using Duo as a form of double security.
+    <section id="solutionSection">
+        <div class="divSolution">
+            <h2> Solution</h2>
+            <div class="solutionP">
+                <p>Solution Alternatives:
+                    Option 1:
+                    Build from scratch Website front end and Database backend.
+                    This seemed more of a tougher route and would take too long to build an infrastructure from scratch.
+                    Option 2:
+                    Use an open source template for Website front end while building Database backend from scratch.
+                    One of our team members had a previous project using Tabler UI so the foundation was already in
+                    place to
+                    build a Website front end.
+                    Finalizing a decision was easy, eventually going with option 2. It was faster and more efficient on
+                    getting a product out for the client as quickly as possible. Other options seemed more cumbersome
+                    than
+                    they were worth and were scrapped.
+                    Possible Features that were Abandoned:
+                    Using Duo as a form of double security.
                 </p>
+            </div>
         </div>
     </section>
-    <section class = "footer">
+    <section class="footer">
         <p>Code Breakers 2021 ®</p>
     </section>
 </body>

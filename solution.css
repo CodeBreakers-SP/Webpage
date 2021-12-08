@@ -4,7 +4,10 @@
     background-size: cover;
     background-position: top;
 }
+.divSolution{
+    margin: 3% 10%;
+}
 
 .solutionP{
-    margin:10%;
+    margin: 5% 10% 7%;
 }

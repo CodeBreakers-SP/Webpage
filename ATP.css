@@ -1,23 +1,10 @@
+
 #atpSection{
-    background: rgb(255, 255, 255);
-    height: 100vh; 
-    background-size: cover;
-    background-position: top;
+  background: rgb(255, 255, 255);
+  height: 100vh; 
+  background-size: cover;
+  background-position: top;
 }
-.atpLeft {
-    width: 50%;
-    height: 200px;
-
-    float: left;
-  }
-  
-  .scopeRight {
-    /* margin-left: 15%;
-    height: 200px;
-    margin: 1.5rem; */
-    width: 50%;
-    height: 200px;
-
-    float: right;
-
-  }
+.bgScopeP{
+  margin: 5% 10% 7%;
+}

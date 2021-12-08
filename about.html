@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="aboutCSS.css">
+    <title>Document</title>
+</head>
+
+<body class="aboutPage">
+    <header class="mainPage">
+        <div>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <!-- <li><a href="#atpS">Background</a></li> -->
+                <!-- <li><a href="#atpSection">Background/Scope</a></li>
+                <li><a href="#tlSection">Timeline</a></li>
+                <li><a href="#solutionSection">Solution</a></li>
+                <li> -->
+                    <div class="dropdown">
+                        <button class="dropbtn">More...</button>
+                        <div class="dropdown-content">
+                            <a href="about.html">About the Team</a>
+                            <a href="highlights.html">Highlights</a>
+                            <a href="implementation.html">Implementation</a>
+                            <a href="lessonsLearned.html">Lessons Learned</a>
+                        </div>
+                    </div>
+        </div>
+        </li>
+        </ul>
+    </header>
+
+    <div id="headerPortion">
+        <div class='container'>
+            <h1>The Team.</h1>
+        </div>
+    </div>
+    <div id='nav-bg'></div>
+    <section id='about'>
+        <div class='container'>
+            <p>What about us.</p>
+        </div>
+    </section>
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+          
+        <!-- Script to change opacity when scrolling the web page -->
+        <script>
+             $(document).ready(function(){
+                $(window).scroll(function(){
+                    $('#headerPortion').css("opacity", 1- $(window).scrollTop() / 200)
+                })
+            })
+        </script>
+</body>
+
+</html>
