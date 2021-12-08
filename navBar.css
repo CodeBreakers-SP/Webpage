@@ -1,83 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Rubik:wght@500&display=swap');
-header ul{
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
-    margin-right: 15vh;
-    background-color: rgba(212, 230, 245, 0.548);
-  }
-  
-  header ul li{
-    display: inline-block;
-  }
-  
- header ul li a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 5px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-    font-family: 'Libre Baskerville', serif;
 
-    font-family: 'Rubik', sans-serif;
-    
-  }
-  
- header ul li a:hover{
-    background-color: #fff;
-    color: #000;
-  }
-  
-  header ul li.active a{
-    background-color: #fff;
-    color: #000;
-  }
+header ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 15vh;
+  background-color: rgba(212, 230, 245, 0.548);
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  font-family: 'Libre Baskerville', serif;
+
+  font-family: 'Rubik', sans-serif;
+
+}
+
+header ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+header ul li.active a {
+  background-color: #fff;
+  color: #000;
+}
 
 /* Hover Button */
 
 
 .dropbtn {
-    background-color: transparent;
-    color: white;
-    padding: 12px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 5px 10px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-    font-family: 'Libre Baskerville', serif;
+  background-color: transparent;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  font-family: 'Libre Baskerville', serif;
 
-    font-family: 'Rubik', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding-right: 1px;
+  background-color: rgba(78, 78, 78, 0.548);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.445);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* Button to top */
+#button-top {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30%;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  background-color: #c9050591;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 10px;
+  /* Some padding */
+  border-radius: 4px;
+  /* Rounded corners */
+  font-size: 14px;
+  /* Increase font size */
+  line-height: 1em;
+  width: 40%;
+  text-shadow: 0;
+  opacity: 70%;
+}
+
+#button-top:hover {
+  background-color: #ff2626b0;
+  box-shadow: rgba(0, 0, 0, .6) 0 3px 6px;
+  text-shadow: 0;
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+@media screen and (min-width:1000px) {
+  #button-top {
+    right: 20px;
+    max-width: 128px;
   }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    padding-right: 15px;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    padding-right: 1px;
-    background-color: rgba(78, 78, 78, 0.548);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.445);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover .dropbtn {background-color: #fff;
-    color: #000;}
-  
+}

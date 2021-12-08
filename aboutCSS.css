@@ -21,11 +21,11 @@ html {
 
 header.mainPage {
 
-	
+
 	max-width: 1800px;
 	margin: auto;
 	background-size: cover;
-  	background-position: center;
+	background-position: center;
 }
 
 
@@ -35,7 +35,7 @@ header.mainPage {
 }
 
 body {
-	background: #222; 
+	background: #222;
 	margin: 0;
 	font-family: "Montserrat", sans-serif;
 	font-size: 16px;
