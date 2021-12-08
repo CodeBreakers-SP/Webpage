@@ -12,7 +12,7 @@ html {
 /* Main Page & Header Tabs*/
 
 header.mainPage{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0)), url("mainbg.png");
+  background-image:linear-gradient(rgba(255, 255, 255, 0.062), rgba(0, 0, 0, 0)), url("./assets/mainbg.png");
   height: 150vh;
   background-size: cover;
   background-position: center;
