@@ -152,7 +152,7 @@ h2 {
 .no-float {
     float: none !important;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;
     }
@@ -197,4 +197,4 @@ h2 {
     .timeline > li.timeline-inverted > .timeline-badge {
         left: 28px;
     }
-}
+} */
