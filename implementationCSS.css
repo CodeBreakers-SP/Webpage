@@ -35,7 +35,7 @@ header.mainPage {
     margin: auto;
 
 }
-
+/* keep title from touching nav bar */
 .implementation h1 {
     font-size: 5vh;
     max-width: 960;
