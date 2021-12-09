@@ -24,7 +24,7 @@ header.mainPage {
 .logo img {
   margin-top: 15px;
   float: left;
-  width: 60 px;
+  width: 60px;
   height: auto;
 }
 
@@ -74,7 +74,7 @@ h1>small {
 
 .footer {
   background-color: #484848;
-  height: 100px;
+  height: 80px;
   padding-top: 10px;
 }
 

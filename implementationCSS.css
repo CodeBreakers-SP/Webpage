@@ -89,3 +89,15 @@ header.mainPage {
         width: 100%;
     }
 }
+.footer {
+    background-color: #484848;
+    height: 80px;
+    padding-top: 10px;
+  }
+  
+  .footer p {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 40%;
+  }
