@@ -5,7 +5,11 @@
   padding: 0;
   font-family: Century Gothic;
   cursor: default;
+  
 
+}
+body{
+  overflow-x: hidden; 
 }
 
 html {
@@ -24,7 +28,7 @@ header.mainPage {
 .logo img {
   margin-top: 15px;
   float: left;
-  width: 60px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -66,12 +70,40 @@ h1>small {
 
 .title h1 {
   color: rgb(0, 0, 0);
-  font-size: 200px;
+  font-size: 10vw;
   font-family: 'Libre Baskerville', serif;
   font-family: 'Rubik', sans-serif;
 
 }
 
+/* Background and Scope */
+#atpSection{
+  background: rgb(255, 255, 255);
+  height: 100%; 
+  background-size: cover;
+  background-position: top;
+}
+.bgScopeP{
+  margin: 5% 10% 7%;
+  font-size: xx-large;
+}
+
+/* Solutions Section */
+#solutionSection{
+  background: rgb(255, 255, 255);
+  height: 100%; 
+  background-size: cover;
+  background-position: top;
+}
+.divSolution{
+  margin: 3% 10%;
+}
+
+.solutionP{
+  margin: 5% 10% 7%;
+  font-size: x-large;
+}
+/* footer */
 .footer {
   background-color: #484848;
   height: 80px;

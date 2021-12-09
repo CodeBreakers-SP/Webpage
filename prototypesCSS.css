@@ -4,6 +4,10 @@
     box-sizing: border-box;
      max-width: 1980; 
 }
+body{
+    overflow-x: hidden; 
+    background-color:#f3f3f3
+  }
 
 img {
     width: 100%;
@@ -53,7 +57,10 @@ h1 {
 }
 
 .header {
-    margin: 0px;
+    max-width: 1800px;
+	margin: auto;
+	background-size: cover;
+	background-position: center;
 }
 
 .description {
